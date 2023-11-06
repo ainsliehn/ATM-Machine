@@ -88,7 +88,7 @@ public class Account {
 		while (!end) {
 			try {
 				System.out.println("\nCurrent Checkings Account Balance: " + moneyFormat.format(checkingBalance));
-				System.out.print("\nAmount you want to withdraw from Checkings Account: ");
+				System.out.print("\nAmount you want to withdraw from Bank of America Checkings Account: ");
 				double amount = input.nextDouble();
 				if ((checkingBalance - amount) >= 0 && amount >= 0) {
 					calcCheckingWithdraw(amount);
